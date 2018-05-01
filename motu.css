@@ -1,0 +1,50 @@
+body
+{
+	margin:0px;
+	padding: 0px;
+	font-size: 15px;
+	font-family: tahoma;
+}
+
+.left_frame
+{
+	border-right: 2px solid #808080;
+	 width:20%;
+	 height: 90%;
+	 padding: 30px;
+	 border-left: none;
+	 border-bottom: none;
+	 border-top: none;
+}
+
+.right_frame
+{
+	 border: none;
+	 width:70%;
+	 height: 90%;
+	 padding: 30px;
+	 border-left: none;
+	 border-bottom: none;
+	 border-top: none;
+}
+
+li
+{
+	font-size: 15px;
+	font-family: tahoma;
+}
+
+p
+{
+	font-size: 15px;
+	font-family: tahoma;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:hover
+{
+	cursor: pointer;
+}
